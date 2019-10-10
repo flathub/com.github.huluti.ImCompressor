@@ -52,8 +52,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/Huluti/ImCompressor",
-                    "tag": "0.2.2",
-                    "commit": "775841d180a3479ea2c15902b80da9d876b39516"
+                    "tag": "0.3",
+                    "commit": "7040a923cbbedf590817a8f6f2ad03099a2b06f8"
                 }
             ]
         }
