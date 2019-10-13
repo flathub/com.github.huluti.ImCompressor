@@ -1,0 +1,25 @@
+From 4a363a1602a380a518147e9e4678613308a2f109 Mon Sep 17 00:00:00 2001
+From: Hugo Posnic <hugo.posnic@gmail.com>
+Date: Sun, 13 Oct 2019 18:31:44 +0200
+Subject: [PATCH 1/1] Fix charset of it.po
+
+---
+ po/it.po | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/po/it.po b/po/it.po
+index 04fa078..e3f341a 100644
+--- a/po/it.po
++++ b/po/it.po
+@@ -14,7 +14,7 @@ msgstr ""
+ "Language-Team: Italian <LL@li.org>\n"
+ "Language: \n"
+ "MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=CHARSET\n"
++"Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+ 
+ #: data/com.github.huluti.ImCompressor.desktop.in:3
+-- 
+2.23.0
+

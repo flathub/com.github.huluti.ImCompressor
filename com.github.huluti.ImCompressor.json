@@ -54,6 +54,10 @@
                     "url": "https://github.com/Huluti/ImCompressor",
                     "tag": "0.5.1",
                     "commit": "0c8a398fa11d583e7f9c59503d87a097f8142372"
+                },
+                {
+                    "type": "patch",
+                    "path": "0001-Fix-charset-of-it.po.patch"
                 }
             ]
         }
