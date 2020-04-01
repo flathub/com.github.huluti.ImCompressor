@@ -1,7 +1,7 @@
 {
     "app-id": "com.github.huluti.ImCompressor",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.34",
+    "runtime-version": "3.36",
     "sdk": "org.gnome.Sdk",
     "command": "imcompressor",
     "finish-args": [
@@ -12,22 +12,12 @@
     ],
     "modules": [
         {
-            "name": "mozjpeg",
-            "no-autogen": true,
-            "buildsystem": "simple",
-            "build-commands": [
-                "autoreconf -fiv",
-                "sh configure --prefix=/app",
-                "make",
-                "make install"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://github.com/mozilla/mozjpeg/archive/v3.3.1.tar.gz",
-                    "sha256": "aebbea60ea038a84a2d1ed3de38fdbca34027e2e54ee2b7d08a97578be72599d"
-                }
-            ]
+            "name":"jpegoptim",
+            "sources":[{
+                "type": "archive",
+                "url": "https://github.com/tjko/jpegoptim/archive/RELEASE.1.4.6.tar.gz",
+                "sha256": "c44dcfac0a113c3bec13d0fc60faf57a0f9a31f88473ccad33ecdf210b4c0c52"
+            }]
         },
         {
             "name": "optipng",
@@ -41,6 +31,22 @@
                     "type": "archive",
                     "url": "https://downloads.sourceforge.net/project/optipng/OptiPNG/optipng-0.7.7/optipng-0.7.7.tar.gz",
                     "sha256": "4f32f233cef870b3f95d3ad6428bfe4224ef34908f1b42b0badf858216654452"
+                }
+            ]
+        },
+        {
+            "name": "pngquant",
+            "buildsystem": "simple",
+            "build-commands": [
+                "sh configure --prefix=/app",
+                "make",
+                "make install"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "http://pngquant.org/pngquant-2.12.5-src.tar.gz",
+                    "sha256": "3638936cf6270eeeaabcee42e10768d78e4dc07cac9310307835c1f58b140808"
                 }
             ]
         },
