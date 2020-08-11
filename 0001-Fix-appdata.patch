@@ -1,0 +1,25 @@
+From 2aaf39348b9a570ccb356f0ad1e84d1cddcb308d Mon Sep 17 00:00:00 2001
+From: Hugo Posnic <hposnic@altais.fr>
+Date: Tue, 11 Aug 2020 15:58:31 +0200
+Subject: [PATCH 1/1] Fix appdata
+
+---
+ data/com.github.huluti.ImCompressor.appdata.xml.in | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/data/com.github.huluti.ImCompressor.appdata.xml.in b/data/com.github.huluti.ImCompressor.appdata.xml.in
+index 7c65be0..329f59e 100644
+--- a/data/com.github.huluti.ImCompressor.appdata.xml.in
++++ b/data/com.github.huluti.ImCompressor.appdata.xml.in
+@@ -33,7 +33,7 @@
+   <launchable type="desktop-id">com.github.huluti.ImCompressor.desktop</launchable>
+ 
+   <releases>
+-    <release version="0.8.2" date="2020-08-20">
++    <release version="0.8.2" date="2020-08-11">
+       <description>
+         <ul>
+           <li>Add Portuguese (Brazil) translation</li>
+-- 
+2.26.2
+

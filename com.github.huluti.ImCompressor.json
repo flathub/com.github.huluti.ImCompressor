@@ -60,6 +60,10 @@
                     "url": "https://github.com/Huluti/ImCompressor",
                     "tag": "0.8.2",
                     "commit": "0beb18bc08a6608ddf54c4bc6f3128aeacc2f01a"
+                },
+                {
+                    "type": "patch",
+                    "path": "0001-Fix-appdata.patch"
                 }
             ]
         }
