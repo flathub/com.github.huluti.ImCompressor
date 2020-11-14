@@ -1,7 +1,7 @@
 {
     "app-id": "com.github.huluti.ImCompressor",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.36",
+    "runtime-version": "3.38",
     "sdk": "org.gnome.Sdk",
     "command": "imcompressor",
     "finish-args": [
@@ -58,12 +58,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/Huluti/ImCompressor",
-                    "tag": "0.8.2",
-                    "commit": "0beb18bc08a6608ddf54c4bc6f3128aeacc2f01a"
-                },
-                {
-                    "type": "patch",
-                    "path": "0001-Fix-appdata.patch"
+                    "tag": "0.8.3",
+                    "commit": "c636391148bc431528e06608f630738d14e35a71"
                 }
             ]
         }
